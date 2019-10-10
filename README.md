@@ -1,5 +1,7 @@
 # Bankruptcy Map
 
+Finding interesting trends in United States bankruptcy court documents using network science and state-of-the-art natural language processing techniques.
+
 ## To run
 
 This guide assumes that you have installed [Docker](https://docs.docker.com/install/).
