@@ -7,6 +7,9 @@ WORKDIR /opt/bankruptcy-map
 # Install python packages
 RUN pip install -r requirements.txt
 
+# For Spacy
+RUN python -m spacy download en_core_web_sm
+
 EXPOSE 8888
 ENTRYPOINT ["jupyter", "notebook", "--no-browser", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=", "--notebook-dir='/root'"]
 
