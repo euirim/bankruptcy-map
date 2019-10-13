@@ -12,6 +12,6 @@ RUN python -m spacy download en_core_web_sm
 RUN pip install https://blackstone-model.s3-eu-west-1.amazonaws.com/en_blackstone_proto-0.0.1.tar.gz
 
 EXPOSE 8888
-ENTRYPOINT ["jupyter", "notebook", "--no-browser", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=", "--notebook-dir='/root'"]
+ENTRYPOINT ["jupyter", "notebook", "--no-browser", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=", "--notebook-dir='/opt/bankruptcy-map/notebooks'"]
 
 LABEL maintainer="euirim@stanford.edu"
