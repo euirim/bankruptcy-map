@@ -1,0 +1,687 @@
+             17-12211-smb             Doc 1        Filed 08/09/17           Entered 08/09/17 15:59:37                   Main Document
+                                                                           Pg 1 of 13
+Fill in this information to identify your case:
+
+United States Bankruptcy Court for the:
+
+SOUTHERN DISTRICT OF NEW YORK
+
+Case number (if known)                                                      Chapter      11
+                                                                                                                              Check if this an
+                                                                                                                              amended filing
+
+
+
+
+Official Form 201
+Voluntary Petition for Non-Individuals Filing for Bankruptcy                                                                                           4/16
+If more space is needed, attach a separate sheet to this form. On the top of any additional pages, write the debtor's name and case number (if known).
+For more information, a separate document, Instructions for Bankruptcy Forms for Non-Individuals, is available.
+
+
+1.   Debtor's name                PGB 38 LLC
+
+2.   All other names debtor
+     used in the last 8 years
+     Include any assumed
+     names, trade names and
+     doing business as names
+
+3.   Debtor's federal
+     Employer Identification      XX-XXXXXXX
+     Number (EIN)
+
+
+4.   Debtor's address             Principal place of business                                     Mailing address, if different from principal place of
+                                                                                                  business
+
+                                  1572 2nd Avenue
+                                  New York, NY 10028
+                                  Number, Street, City, State & ZIP Code                          P.O. Box, Number, Street, City, State & ZIP Code
+
+                                  New York                                                        Location of principal assets, if different from principal
+                                  County                                                          place of business
+
+                                                                                                  Number, Street, City, State & ZIP Code
+
+
+5.   Debtor's website (URL)
+
+
+6.   Type of debtor                   Corporation (including Limited Liability Company (LLC) and Limited Liability Partnership (LLP))
+                                      Partnership (excluding LLP)
+                                      Other. Specify:
+
+
+
+
+Official Form 201                          Voluntary Petition for Non-Individuals Filing for Bankruptcy                                              page 1
+             17-12211-smb               Doc 1           Filed 08/09/17         Entered 08/09/17 15:59:37                          Main Document
+                                                                              Pg 2 of 13
+Debtor    PGB 38 LLC                                                                                   Case number (if known)
+          Name
+
+
+
+7.   Describe debtor's business        A. Check one:
+                                          Health Care Business (as defined in 11 U.S.C. § 101(27A))
+                                          Single Asset Real Estate (as defined in 11 U.S.C. § 101(51B))
+                                          Railroad (as defined in 11 U.S.C. § 101(44))
+                                          Stockbroker (as defined in 11 U.S.C. § 101(53A))
+                                          Commodity Broker (as defined in 11 U.S.C. § 101(6))
+                                          Clearing Bank (as defined in 11 U.S.C. § 781(3))
+
+                                          None of the above
+
+                                       B. Check all that apply
+                                          Tax-exempt entity (as described in 26 U.S.C. §501)
+                                          Investment company, including hedge fund or pooled investment vehicle (as defined in 15 U.S.C. §80a-3)
+                                          Investment advisor (as defined in 15 U.S.C. §80b-2(a)(11))
+
+                                       C. NAICS (North American Industry Classification System) 4-digit code that best describes debtor.
+                                          See http://www.uscourts.gov/four-digit-national-association-naics-codes.
+
+
+
+8.   Under which chapter of the        Check one:
+     Bankruptcy Code is the
+                                          Chapter 7
+     debtor filing?
+                                          Chapter 9
+
+                                          Chapter 11. Check all that apply:
+                                                                 Debtor's aggregate noncontingent liquidated debts (excluding debts owed to insiders or affiliates)
+                                                                 are less than $2,566,050 (amount subject to adjustment on 4/01/19 and every 3 years after that).
+                                                                 The debtor is a small business debtor as defined in 11 U.S.C. § 101(51D). If the debtor is a small
+                                                                 business debtor, attach the most recent balance sheet, statement of operations, cash-flow
+                                                                 statement, and federal income tax return or if all of these documents do not exist, follow the
+                                                                 procedure in 11 U.S.C. § 1116(1)(B).
+                                                                 A plan is being filed with this petition.
+                                                                 Acceptances of the plan were solicited prepetition from one or more classes of creditors, in
+                                                                 accordance with 11 U.S.C. § 1126(b).
+                                                                 The debtor is required to file periodic reports (for example, 10K and 10Q) with the Securities and
+                                                                 Exchange Commission according to § 13 or 15(d) of the Securities Exchange Act of 1934. File the
+                                                                 attachment to Voluntary Petition for Non-Individuals Filing for Bankruptcy under Chapter 11
+                                                                 (Official Form 201A) with this form.
+                                                                 The debtor is a shell company as defined in the Securities Exchange Act of 1934 Rule 12b-2.
+                                          Chapter 12
+
+
+
+9.   Were prior bankruptcy                No.
+     cases filed by or against
+     the debtor within the last 8         Yes.
+     years?
+     If more than 2 cases, attach a
+     separate list.                               District                                When                                  Case number
+                                                  District                                When                                  Case number
+
+
+10. Are any bankruptcy cases              No
+    pending or being filed by a
+    business partner or an                Yes.
+    affiliate of the debtor?
+     List all cases. If more than 1,
+     attach a separate list                       Debtor                                                                    Relationship
+                                                  District                                When                              Case number, if known
+
+
+
+
+Official Form 201                               Voluntary Petition for Non-Individuals Filing for Bankruptcy                                              page 2
+            17-12211-smb             Doc 1           Filed 08/09/17         Entered 08/09/17 15:59:37                        Main Document
+                                                                           Pg 3 of 13
+Debtor   PGB 38 LLC                                                                                Case number (if known)
+         Name
+
+
+
+11. Why is the case filed in    Check all that apply:
+    this district?
+                                         Debtor has had its domicile, principal place of business, or principal assets in this district for 180 days immediately
+                                         preceding the date of this petition or for a longer part of such 180 days than in any other district.
+                                         A bankruptcy case concerning debtor's affiliate, general partner, or partnership is pending in this district.
+
+12. Does the debtor own or          No
+    have possession of any
+    real property or personal                Answer below for each property that needs immediate attention. Attach additional sheets if needed.
+                                    Yes.
+    property that needs
+    immediate attention?                     Why does the property need immediate attention? (Check all that apply.)
+                                                It poses or is alleged to pose a threat of imminent and identifiable hazard to public health or safety.
+                                               What is the hazard?
+                                                It needs to be physically secured or protected from the weather.
+                                                It includes perishable goods or assets that could quickly deteriorate or lose value without attention (for example,
+                                               livestock, seasonal goods, meat, dairy, produce, or securities-related assets or other options).
+                                                Other
+                                             Where is the property?
+                                                                              Number, Street, City, State & ZIP Code
+                                             Is the property insured?
+                                                No
+                                                Yes.    Insurance agency
+                                                        Contact name
+                                                        Phone
+
+
+
+         Statistical and administrative information
+
+13. Debtor's estimation of      .         Check one:
+    available funds
+                                             Funds will be available for distribution to unsecured creditors.
+                                             After any administrative expenses are paid, no funds will be available to unsecured creditors.
+
+14. Estimated number of             1-49                                             1,000-5,000                                 25,001-50,000
+    creditors                                                                        5001-10,000                                 50,001-100,000
+                                    50-99
+                                    100-199                                          10,001-25,000                               More than100,000
+                                    200-999
+
+15. Estimated Assets                $0 - $50,000                                     $1,000,001 - $10 million                    $500,000,001 - $1 billion
+                                    $50,001 - $100,000                               $10,000,001 - $50 million                   $1,000,000,001 - $10 billion
+                                    $100,001 - $500,000                              $50,000,001 - $100 million                  $10,000,000,001 - $50 billion
+                                    $500,001 - $1 million                            $100,000,001 - $500 million                 More than $50 billion
+
+
+16. Estimated liabilities           $0 - $50,000                                     $1,000,001 - $10 million                    $500,000,001 - $1 billion
+                                    $50,001 - $100,000                               $10,000,001 - $50 million                   $1,000,000,001 - $10 billion
+                                    $100,001 - $500,000                              $50,000,001 - $100 million                  $10,000,000,001 - $50 billion
+                                    $500,001 - $1 million                            $100,000,001 - $500 million                 More than $50 billion
+
+
+
+
+Official Form 201                           Voluntary Petition for Non-Individuals Filing for Bankruptcy                                                   page 3
+            17-12211-smb                 Doc 1     Filed 08/09/17          Entered 08/09/17 15:59:37                        Main Document
+                                                                          Pg 4 of 13
+Debtor    PGB 38 LLC                                                                               Case number (if known)
+          Name
+
+
+
+          Request for Relief, Declaration, and Signatures
+
+WARNING -- Bankruptcy fraud is a serious crime. Making a false statement in connection with a bankruptcy case can result in fines up to $500,000 or
+           imprisonment for up to 20 years, or both. 18 U.S.C. §§ 152, 1341, 1519, and 3571.
+
+17. Declaration and signature
+    of authorized                The debtor requests relief in accordance with the chapter of title 11, United States Code, specified in this petition.
+    representative of debtor
+                                 I have been authorized to file this petition on behalf of the debtor.
+
+                                 I have examined the information in this petition and have a reasonable belief that the information is trued and correct.
+
+                                 I declare under penalty of perjury that the foregoing is true and correct.
+
+                                 Executed on      August 8, 2017
+                                                  MM / DD / YYYY
+
+
+                             X   /s/ Philip Menegis                                                       Philip Menegis
+                                 Signature of authorized representative of debtor                         Printed name
+
+                                 Title    Managing Member
+
+
+
+
+18. Signature of attorney    X   /s/ Gregory M. Messer                                                     Date August 8, 2017
+                                 Signature of attorney for debtor                                               MM / DD / YYYY
+
+                                 Gregory M. Messer
+                                 Printed name
+
+                                 Law Office of Gregory Messer
+                                 Firm name
+
+                                 Law Office of Gregory Messer
+                                 26 Court Street, Suite 2400
+                                 Brooklyn, NY 11242
+                                 Number, Street, City, State & ZIP Code
+
+
+                                 Contact phone     718-858-1474                  Email address      gremesser@aol.com
+
+                                 1388339
+                                 Bar number and State
+
+
+
+
+Official Form 201                          Voluntary Petition for Non-Individuals Filing for Bankruptcy                                                   page 4
+          17-12211-smb                    Doc 1          Filed 08/09/17             Entered 08/09/17 15:59:37                Main Document
+                                                                                   Pg 5 of 13
+
+
+
+
+ Fill in this information to identify the case:
+
+ Debtor name         PGB 38 LLC
+
+ United States Bankruptcy Court for the:            SOUTHERN DISTRICT OF NEW YORK
+
+ Case number (if known)
+                                                                                                                                  Check if this is an
+                                                                                                                                  amended filing
+
+
+
+Official Form 202
+Declaration Under Penalty of Perjury for Non-Individual Debtors                                                                                         12/15
+
+An individual who is authorized to act on behalf of a non-individual debtor, such as a corporation or partnership, must sign and submit this
+form for the schedules of assets and liabilities, any other document that requires a declaration that is not included in the document, and any
+amendments of those documents. This form must state the individual’s position or relationship to the debtor, the identity of the document,
+and the date. Bankruptcy Rules 1008 and 9011.
+
+WARNING -- Bankruptcy fraud is a serious crime. Making a false statement, concealing property, or obtaining money or property by fraud in
+connection with a bankruptcy case can result in fines up to $500,000 or imprisonment for up to 20 years, or both. 18 U.S.C. §§ 152, 1341,
+1519, and 3571.
+
+
+
+                Declaration and signature
+
+
+       I am the president, another officer, or an authorized agent of the corporation; a member or an authorized agent of the partnership; or another
+       individual serving as a representative of the debtor in this case.
+
+       I have examined the information in the documents checked below and I have a reasonable belief that the information is true and correct:
+
+                  Schedule A/B: Assets–Real and Personal Property (Official Form 206A/B)
+                  Schedule D: Creditors Who Have Claims Secured by Property (Official Form 206D)
+                  Schedule E/F: Creditors Who Have Unsecured Claims (Official Form 206E/F)
+                  Schedule G: Executory Contracts and Unexpired Leases (Official Form 206G)
+                  Schedule H: Codebtors (Official Form 206H)
+                  Summary of Assets and Liabilities for Non-Individuals (Official Form 206Sum)
+                  Amended Schedule
+                  Chapter 11 or Chapter 9 Cases: List of Creditors Who Have the 20 Largest Unsecured Claims and Are Not Insiders (Official Form 204)
+                  Other document that requires a declaration
+
+       I declare under penalty of perjury that the foregoing is true and correct.
+
+        Executed on          August 8, 2017                          X /s/ Philip Menegis
+                                                                       Signature of individual signing on behalf of debtor
+
+                                                                       Philip Menegis
+                                                                       Printed name
+
+                                                                       Managing Member
+                                                                       Position or relationship to debtor
+
+
+
+
+Official Form 202                                             Declaration Under Penalty of Perjury for Non-Individual Debtors
+Software Copyright (c) 1996-2017 Best Case, LLC - www.bestcase.com                                                                         Best Case Bankruptcy
+               17-12211-smb                    Doc 1          Filed 08/09/17         Entered 08/09/17 15:59:37                             Main Document
+                                                                                    Pg 6 of 13
+
+ Fill in this information to identify the case:
+ Debtor name PGB 38 LLC
+ United States Bankruptcy Court for the: SOUTHERN DISTRICT OF NEW                                                                                     Check if this is an
+                                                YORK
+ Case number (if known):                                                                                                                              amended filing
+
+
+
+
+Official Form 204
+Chapter 11 or Chapter 9 Cases: List of Creditors Who Have the 20 Largest Unsecured Claims and
+Are Not Insiders                                                                           12/15
+
+A list of creditors holding the 20 largest unsecured claims must be filed in a Chapter 11 or Chapter 9 case. Include claims which the
+debtor disputes. Do not include claims by any person or entity who is an insider, as defined in 11 U.S.C. § 101(31). Also, do not
+include claims by secured creditors, unless the unsecured claim resulting from inadequate collateral value places the creditor
+among the holders of the 20 largest unsecured claims.
+
+ Name of creditor and      Name, telephone number Nature of claim                        Indicate if claim   Amount of claim
+ complete mailing address, and email address of   (for example, trade                     is contingent,     If the claim is fully unsecured, fill in only unsecured claim amount. If
+ including zip code        creditor contact       debts, bank loans,                     unliquidated, or    claim is partially secured, fill in total claim amount and deduction for
+                                                  professional services,                     disputed        value of collateral or setoff to calculate unsecured claim.
+                                                  and government                                             Total claim, if            Deduction for value        Unsecured claim
+                                                  contracts)                                                 partially secured          of collateral or setoff
+ Con Edison                                                                             Unliquidated                                                                      $21,943.21
+ Cooper Station                                                                         Disputed
+ P.O. Box 138
+ New York, NY
+ 10276-0138
+ Internal Revenue                                                                                                                                                                 $0.00
+ Service
+ Department of the
+ Treasury
+ Holtsville, NY
+ 11742-0480
+ Kimco 1572 Corp                                                 Commercial Lease Unliquidated                                                                          $116,485.16
+ 1265 15TH ST., #1M                                              1572 2 Avenue, St Disputed
+ Fort Lee, NJ 07024                                              1
+                                                                 New York, NY
+                                                                 10028
+ New York State Dept                                                                                                                                                              $0.00
+ of
+ Taxation & Finance
+ WA Harriman
+ Campus
+ Albany, NY
+ 12227-0001
+ NYC Department of                                                                                                                                                                $0.00
+ Finance
+ P.O. Box 3671
+ New York, NY
+ 10008-3671
+
+
+
+
+Official form 204                                Chapter 11 or Chapter 9 Cases: List of Creditors Who Have the 20 Largest Unsecured claims                                 page 1
+
+Software Copyright (c) 1996-2017 Best Case, LLC - www.bestcase.com                                                                                            Best Case Bankruptcy
+            17-12211-smb                  Doc 1          Filed 08/09/17         Entered 08/09/17 15:59:37                 Main Document
+                                                                               Pg 7 of 13
+B2030 (Form 2030) (12/15)
+                                                               United States Bankruptcy Court
+                                                                     Southern District of New York
+ In re       PGB 38 LLC                                                                                        Case No.
+                                                                                      Debtor(s)                Chapter      11
+
+                          DISCLOSURE OF COMPENSATION OF ATTORNEY FOR DEBTOR(S)
+1.     Pursuant to 11 U .S.C. § 329(a) and Fed. Bankr. P. 2016(b), I certify that I am the attorney for the above named debtor(s) and that
+       compensation paid to me within one year before the filing of the petition in bankruptcy, or agreed to be paid to me, for services rendered or to
+       be rendered on behalf of the debtor(s) in contemplation of or in connection with the bankruptcy case is as follows:
+             For legal services, I have agreed to accept                                                   $                20,000.00
+             Prior to the filing of this statement I have received                                         $                20,000.00
+             Balance Due                                                                                   $                      0.00
+
+2.     The source of the compensation paid to me was:
+
+                  Debtor                  Other (specify):           Philip Menegis
+
+3.     The source of compensation to be paid to me is:
+
+                  Debtor                  Other (specify):
+
+4.          I have not agreed to share the above-disclosed compensation with any other person unless they are members and associates of my law firm.
+
+            I have agreed to share the above-disclosed compensation with a person or persons who are not members or associates of my law firm. A
+            copy of the agreement, together with a list of the names of the people sharing in the compensation is attached.
+
+5.       In return for the above-disclosed fee, I have agreed to render legal service for all aspects of the bankruptcy case, including:
+
+       a.   Analysis of the debtor's financial situation, and rendering advice to the debtor in determining whether to file a petition in bankruptcy;
+       b.   Preparation and filing of any petition, schedules, statement of affairs and plan which may be required;
+       c.   Representation of the debtor at the meeting of creditors and confirmation hearing, and any adjourned hearings thereof;
+       d.   [Other provisions as needed]
+                 Negotiations with secured creditors to reduce to market value; exemption planning; preparation and filing of
+                 reaffirmation agreements and applications as needed; preparation and filing of motions pursuant to 11 USC
+                 522(f)(2)(A) for avoidance of liens on household goods.
+
+6.     By agreement with the debtor(s), the above-disclosed fee does not include the following service:
+               Representation of the debtors in any dischargeability actions, judicial lien avoidances, relief from stay actions or
+               any other adversary proceeding.
+                                                                            CERTIFICATION
+       I certify that the foregoing is a complete statement of any agreement or arrangement for payment to me for representation of the debtor(s) in
+ this bankruptcy proceeding.
+
+     August 8, 2017                                                                   /s/ Gregory M. Messer
+     Date                                                                             Gregory M. Messer
+                                                                                      Signature of Attorney
+                                                                                      Law Office of Gregory Messer
+                                                                                      Law Office of Gregory Messer
+                                                                                      26 Court Street, Suite 2400
+                                                                                      Brooklyn, NY 11242
+                                                                                      718-858-1474 Fax: 718-797-5360
+                                                                                      gremesser@aol.com
+                                                                                      Name of law firm
+
+
+
+
+Software Copyright (c) 1996-2017 Best Case, LLC - www.bestcase.com                                                                         Best Case Bankruptcy
+          17-12211-smb                    Doc 1          Filed 08/09/17        Entered 08/09/17 15:59:37                         Main Document
+                                                                              Pg 8 of 13
+                                                               United States Bankruptcy Court
+                                                                     Southern District of New York
+ In re      PGB 38 LLC                                                                                                Case No.
+                                                                                    Debtor(s)                         Chapter        11
+
+                                                         LIST OF EQUITY SECURITY HOLDERS
+Following is the list of the Debtor's equity security holders which is prepared in accordance with rule 1007(a)(3) for filing in this Chapter 11 Case
+
+ Name and last known address or place of                             Security Class Number of Securities                         Kind of Interest
+ business of holder
+ Joseph Allaham                                                                                                                  Member
+ 424 Madison Ave
+ New York, NY 10017
+
+ Philip Menegis                                                                                                                  Managing Member
+ 1170 Ocean Pkwy
+ Brooklyn, NY 11230
+
+
+DECLARATION UNDER PENALTY OF PERJURY ON BEHALF OF CORPORATION OR PARTNERSHIP
+
+        I, the Managing Member of the corporation named as the debtor in this case, declare under penalty of perjury that I
+have read the foregoing List of Equity Security Holders and that it is true and correct to the best of my information and
+belief.
+
+
+
+ Date August 8, 2017                                                         Signature /s/ Philip Menegis
+                                                                                            Philip Menegis
+
+                       Penalty for making a false statement of concealing property: Fine of up to $500,000 or imprisonment for up to 5 years or both.
+                                                                        18 U.S.C. §§ 152 and 3571.
+
+
+
+
+Sheet 1 of 1 in List of Equity Security Holders
+Software Copyright (c) 1996-2017 Best Case, LLC - www.bestcase.com                                                                                      Best Case Bankruptcy
+          17-12211-smb                    Doc 1          Filed 08/09/17        Entered 08/09/17 15:59:37            Main Document
+                                                                              Pg 9 of 13
+
+
+
+
+                                                               United States Bankruptcy Court
+                                                                     Southern District of New York
+ In re      PGB 38 LLC                                                                                   Case No.
+                                                                                   Debtor(s)             Chapter     11
+
+
+
+
+                                               VERIFICATION OF CREDITOR MATRIX
+
+
+I, the Managing Member of the corporation named as the debtor in this case, hereby verify that the attached list of creditors is true and
+
+correct to the best of my knowledge.
+
+
+
+
+ Date:       August 8, 2017                                             /s/ Philip Menegis
+                                                                        Philip Menegis/Managing Member
+                                                                        Signer/Title
+
+
+
+
+Software Copyright (c) 1996-2017 Best Case, LLC - www.bestcase.com                                                            Best Case Bankruptcy
+    17-12211-smb   Doc 1   Filed 08/09/17 Entered 08/09/17 15:59:37   Main Document
+                                         Pg 10 of 13
+
+}
+b
+k
+1
+{
+C
+r
+e
+d
+i
+t
+o
+A
+s
+M
+a
+x
+
+
+
+
+                           CON EDISON
+                           COOPER STATION
+                           P.O. BOX 138
+                           NEW YORK, NY 10276-0138
+
+
+                           EMMANUELLI & PILOTTI, ESQS
+                           1188-A GRAND CONCOURSE
+                           BRONX, NY 10456
+
+
+                           INTERNAL REVENUE SERVICE
+                           DEPARTMENT OF THE TREASURY
+                           HOLTSVILLE, NY 11742-0480
+
+
+                           KIMCO 1572 CORP
+                           1265 15TH ST., #1M
+                           FORT LEE, NJ 07024
+
+
+                           NEW YORK STATE DEPT OF
+                           TAXATION & FINANCE
+                           WA HARRIMAN CAMPUS
+                           ALBANY, NY 12227-0001
+
+
+                           NYC DEPARTMENT OF FINANCE
+                           P.O. BOX 3671
+                           NEW YORK, NY 10008-3671
+
+
+                           TLE ASSOCIATES, INC.
+                           PO BOX 126 RIVERDALE STATION
+                           BRONX, NY 10471-0126
+          17-12211-smb                    Doc 1          Filed 08/09/17 Entered 08/09/17 15:59:37                    Main Document
+                                                                       Pg 11 of 13
+
+
+
+                                                               United States Bankruptcy Court
+                                                                     Southern District of New York
+ In re      PGB 38 LLC                                                                                    Case No.
+                                                                                  Debtor(s)               Chapter     11
+
+
+
+
+                                           CORPORATE OWNERSHIP STATEMENT (RULE 7007.1)
+
+Pursuant to Federal Rule of Bankruptcy Procedure 7007.1 and to enable the Judges to evaluate possible disqualification or
+recusal, the undersigned counsel for PGB 38 LLC in the above captioned action, certifies that the following is a (are)
+corporation(s), other than the debtor or a governmental unit, that directly or indirectly own(s) 10% or more of any class of
+the corporation's(s') equity interests, or states that there are no entities to report under FRBP 7007.1:
+
+
+
+    None [Check if applicable]
+
+
+
+
+ August 8, 2017                                                       /s/ Gregory M. Messer
+ Date                                                                 Gregory M. Messer
+                                                                      Signature of Attorney or Litigant
+                                                                      Counsel for PGB 38 LLC
+                                                                      Law Office of Gregory Messer
+                                                                      Law Office of Gregory Messer
+                                                                      26 Court Street, Suite 2400
+                                                                      Brooklyn, NY 11242
+                                                                      718-858-1474 Fax:718-797-5360
+                                                                      gremesser@aol.com
+
+
+
+
+Software Copyright (c) 1996-2017 Best Case, LLC - www.bestcase.com                                                             Best Case Bankruptcy
+          17-12211-smb                    Doc 1          Filed 08/09/17 Entered 08/09/17 15:59:37                    Main Document
+                                                                       Pg 12 of 13
+
+                                                               United States Bankruptcy Court
+                                                                     Southern District of New York
+ In re      PGB 38 LLC                                                                                    Case No.
+                                                                                  Debtor(s)               Chapter     11
+
+
+
+           STATEMENT REGARDING AUTHORITY TO SIGN AND FILE PETITION
+        I, Philip Menegis, declare under penalty of perjury that I am the Managing Member of PGB 38 LLC, and that
+the following is a true and correct copy of the resolutions adopted by the Board of Directors of said corporation
+at a special meeting duly called and held on the 7th day of August , 20 17 .
+
+      "Whereas, it is in the best interest of this corporation to file a voluntary petition in the United States
+Bankruptcy Court pursuant to Chapter 11 of Title 11 of the United States Code;
+
+        Be It Therefore Resolved, that Philip Menegis, Managing Member of this Corporation, is authorized and
+directed to execute and deliver all documents necessary to perfect the filing of a chapter 11 voluntary
+bankruptcy case on behalf of the corporation; and
+
+         Be It Further Resolved, that Philip Menegis, Managing Member of this Corporation is authorized and
+directed to appear in all bankruptcy proceedings on behalf of the corporation, and to otherwise do and perform
+all acts and deeds and to execute and deliver all necessary documents on behalf of the corporation in connection
+with such bankruptcy case, and
+
+        Be It Further Resolved, that Philip Menegis, Managing Member of this Corporation is authorized and
+directed to employ Gregory M. Messer, attorney and the law firm of Law Office of Gregory Messer to represent the
+corporation in such bankruptcy case."
+
+ Date 8 August 2017                                                             Signed s/ Philip Menegis
+                                                                                         Philip Menegis
+
+
+
+
+Software Copyright (c) 1996-2017 Best Case, LLC - www.bestcase.com                                                             Best Case Bankruptcy
+          17-12211-smb                    Doc 1          Filed 08/09/17 Entered 08/09/17 15:59:37               Main Document
+                                                                       Pg 13 of 13
+
+                                                                     Resolution of Board of Directors
+                                                                                    of
+                                                                               PGB 38 LLC
+
+
+
+
+      Whereas, it is in the best interest of this corporation to file a voluntary petition in the the United States
+Bankruptcy Court pursuant to Chapter 11 of Title 11 of the United States Code;
+
+        Be It Therefore Resolved, that Philip Menegis, Managing Member of this Corporation, is authorized and
+directed to execute and deliver all documents necessary to perfect the filing of a chapter 11 voluntary
+bankruptcy case on behalf of the corporation; and
+
+         Be It Further Resolved, that Philip Menegis, Managing Member of this Corporation is authorized and
+directed to appear in all bankruptcy proceedings on behalf of the corporation, and to otherwise do and perform
+all acts and deeds and to execute and deliver all necessary documents on behalf of the corporation in connection
+with such bankruptcy case, and
+
+        Be It Further Resolved, that Philip Menegis, Managing Member of this Corporation is authorized and
+directed to employ Gregory M. Messer, attorney and the law firm of Law Office of Gregory Messer to represent the
+corporation in such bankruptcy case.
+
+ Date 8 August 2017                                                              Signed     s/ Philip Menegis
+                                                                                            Philip Menegis
+
+
+ Date                                                                            Signed
+
+
+
+
+Software Copyright (c) 1996-2017 Best Case, LLC - www.bestcase.com                                                        Best Case Bankruptcy

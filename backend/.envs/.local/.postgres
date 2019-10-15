@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=bankruptcy
+POSTGRES_USER=tnavEEJAAZvpRdnZyiiMXdoQEkqLNEkd
+POSTGRES_PASSWORD=7jV3KJOukyg5JiF6qvXdUsibQlhxMXiDxtYXvqnoWNKGRPj68yONo1xBygcWbclv
