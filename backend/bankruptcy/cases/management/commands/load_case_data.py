@@ -49,6 +49,7 @@ class Command(BaseCommand):
                     'recap_id': case.get_id(),
                     'pacer_id': case.get_pacer_id(),
                     'date_filed': case.get_date_filed(),
+                    'date_created': case.get_date_created(),
                     'date_terminated': case.get_date_terminated(),
                     'date_blocked': case.get_date_blocked(),
                     'jurisdiction': case.get_jurisdiction(),
@@ -61,6 +62,7 @@ class Command(BaseCommand):
                     entry_args = {
                         'recap_id': entry.get_id(),
                         'date_filed': entry.get_date_filed(),
+                        'date_created': entry.get_date_created(),
                         'description': entry.get_description(),
                         'case': caseModelObject,
                     }

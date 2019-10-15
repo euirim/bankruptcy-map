@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Search</h1
+<form action="{% url 'cases:search' %}" method="GET" class="form-inline">
+  <div class="form-group mr-2">
+  <input type="search" class="form-control" name="q" placeholder="John Appleseed" />
+  </div>
+  <input type="submit" class="btn btn-primary" />
+</form>
+
+<hr />
+
+{% if query %}
+  <p class="text-muted">{{ cases.count }} results.</p>
+  {% if cases %}
+    <div class="list-group">
+      {% for case in cases %}
+        <a href="#" class="list-group-item  list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1"><strong>{{ case.name }}</strong></h5>
+            <small>{{ case.date_created }}</small>
+          </div>
+          <p class="mb-1"><strong>Jurisdiction:</strong> {{ case.jurisdiction }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endif %}
+{% endblock %}

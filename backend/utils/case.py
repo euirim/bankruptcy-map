@@ -26,13 +26,28 @@ class CaseObj:
         return self.__data["court"]
 
     def get_date_filed(self):
-        return arrow.get(self.__data["date_filed"]).date()
+        if self.__data["date_filed"]:
+            return arrow.get(self.__data["date_filed"]).date()
+        else:
+            return None
+        
+    def get_date_created(self):
+        if self.__data["date_created"]:
+            return arrow.get(self.__data["date_created"]).date()
+        else:
+            return None
 
     def get_date_terminated(self):
-        return arrow.get(self.__data["date_terminated"]).date()
+        if self.__data["date_terminated"]:
+            return arrow.get(self.__data["date_created"]).date()
+        else:
+            return None
 
     def get_date_blocked(self):
-        return arrow.get(self.__data["date_blocked"]).date()
+        if self.__data["date_blocked"]:
+            return arrow.get(self.__data["date_blocked"]).date()
+        else:
+            return None
 
     def get_pacer_id(self):
         return self.__data["pacer_case_id"]
@@ -56,7 +71,16 @@ class DocketEntryObj:
         return self.__data["id"]
 
     def get_date_filed(self):
-        return arrow.get(self.__data["date_filed"]).date()
+        if self.__data["date_filed"]:
+            return arrow.get(self.__data["date_filed"]).date()
+        else:
+            return None
+
+    def get_date_created(self):
+        if self.__data["date_created"]:
+            return arrow.get(self.__data["date_created"]).date()
+        else:
+            return None
 
     def get_description(self):
         if self.__data["description"]:

@@ -5,7 +5,8 @@ class Case(models.Model):
     name = models.CharField(max_length=100, db_index=True)
     recap_id = models.IntegerField()
     pacer_id = models.CharField(max_length=50, db_index=True)
-    date_filed = models.DateField(db_index=True)
+    date_filed = models.DateField(db_index=True, blank=True, null=True)
+    date_created = models.DateField(db_index=True)
     date_terminated = models.DateField(db_index=True, blank=True, null=True)
     date_blocked = models.DateField(db_index=True, blank=True, null=True)
     jurisdiction = models.CharField(max_length=50)
@@ -23,7 +24,8 @@ class Case(models.Model):
 
 class DocketEntry(models.Model):
     recap_id = models.IntegerField()
-    date_filed = models.DateField(db_index=True)
+    date_filed = models.DateField(db_index=True, blank=True, null=True)
+    date_created = models.DateField(db_index=True)
     description = models.TextField(blank=True, null=True)
     case = models.ForeignKey('Case', on_delete=models.CASCADE)
 
