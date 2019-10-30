@@ -59,6 +59,9 @@ class DocketEntry:
     def get_date_filed(self):
         return arrow.get(self.__data["date_filed"])
 
+    def get_date_modified(self):
+        return arrow.get(self.__data["date_modified"])
+
     def get_description(self):
         return self.__data["description"]
 
