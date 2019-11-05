@@ -15,7 +15,7 @@
   {% if cases %}
     <div class="list-group">
       {% for case in cases %}
-        <a href="#" class="list-group-item  list-group-item-action flex-column align-items-start">
+        <a href="{% url 'cases:detail' case.pk %}" class="list-group-item  list-group-item-action flex-column align-items-start">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1"><strong>{{ case.name }}</strong></h5>
             <small>{{ case.date_created }}</small>

@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.db.models import Q
+from django.views.generic import DetailView
+
 from .models import Case
 from .documents import CaseDocument
 
@@ -19,3 +21,10 @@ def search(request):
         'cases/search.html', 
         {'cases': cases, 'query': query_str}
     )
+
+
+class CaseDetail(DetailView):
+
+    model = Case
+    slug_field = "pk"
+    slug_url_kwarg = "pk"

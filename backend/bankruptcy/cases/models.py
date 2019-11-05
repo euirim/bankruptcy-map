@@ -26,7 +26,11 @@ class DocketEntry(models.Model):
     date_filed = models.DateField(db_index=True, blank=True, null=True)
     date_created = models.DateField(db_index=True)
     description = models.TextField(blank=True, null=True)
-    case = models.ForeignKey('Case', on_delete=models.CASCADE)
+    case = models.ForeignKey(
+        'Case', 
+        on_delete=models.CASCADE, 
+        related_name='docket_entries'
+    )
 
     def __str__(self):
         return str(self.recap_id)
@@ -41,7 +45,11 @@ class Document(models.Model):
     file_url = models.URLField(blank=True, null=True, max_length=2048)
     description = models.TextField(blank=True, null=True)
     text = models.TextField(blank=True, null=True)
-    docket_entry = models.ForeignKey('DocketEntry', on_delete=models.CASCADE)
+    docket_entry = models.ForeignKey(
+        'DocketEntry', 
+        on_delete=models.CASCADE,
+        related_name='documents'
+    )
 
     def __str__(self):
         return self.pacer_id
