@@ -19,7 +19,12 @@ ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["euirim.org"])
 
 # DATABASES
 # ------------------------------------------------------------------------------
-DATABASES["default"] = env.db("DATABASE_URL")  # noqa F405
+DATABASES["default"] = {}  # noqa F405
+DATABASES["default"]["HOST"] = env("POSTGRES_HOST")  # noqa F405
+DATABASES["default"]["PORT"] = env("POSTGRES_PORT")  # noqa F405
+DATABASES["default"]["DB"] = env("POSTGRES_DB")  # noqa F405
+DATABASES["default"]["USER"] = env("POSTGRES_USER")  # noqa F405
+DATABASES["default"]["PASSWORD"] = env("POSTGRES_PASSWORD")  # noqa F405
 DATABASES["default"]["ATOMIC_REQUESTS"] = True  # noqa F405
 DATABASES["default"]["CONN_MAX_AGE"] = env.int("CONN_MAX_AGE", default=60)  # noqa F405
 
