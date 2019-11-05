@@ -65,33 +65,35 @@ class CaseObj:
         """
         for entry in self.get_entries():
             descr = entry.get_description()
-            if("petition" in descr.lower()):
-                if("chapter 7" in descr.lower()):
+
+            if descr is not None and "petition" in descr.lower():
+                if "chapter 7" in descr.lower():
                     return 7
-                elif("chapter 11" in descr.lower()):
+                elif "chapter 11" in descr.lower():
                     return 11
-                elif("chapter 12" in descr.lower()):
+                elif "chapter 12" in descr.lower():
                     return 12
-                elif("chapter 13" in descr.lower()):
+                elif "chapter 13" in descr.lower():
                     return 13
-                elif("chapter 15" in descr.lower()):
+                elif "chapter 15" in descr.lower():
                     return 15
             else:
                 for doc in entry.documents:
                     doc_descr = doc.get_description()
-                    if("petition" in doc_descr.lower()):
-                        if("chapter 7" in doc_descr.lower()):
-                            return 7
-                        elif("chapter 11" in doc_descr.lower()):
-                            return 11
-                        elif("chapter 12" in doc_descr.lower()):
-                            return 12
-                        elif("chapter 13" in doc_descr.lower()):
-                            return 13
-                        elif("chapter 15" in doc_descr.lower()):
-                            return 15
+                    if doc_descr is None or "petition" not in doc_descr.lower():
+                        return None
+
+                    if "chapter 7" in doc_descr.lower():
+                        return 7
+                    elif "chapter 11" in doc_descr.lower():
+                        return 11
+                    elif "chapter 12" in doc_descr.lower():
+                        return 12
+                    elif "chapter 13" in doc_descr.lower():
+                        return 13
+                    elif "chapter 15" in doc_descr.lower():
+                        return 15
                                     
-        #In the case no chapter is found, return None
         return None
 
 

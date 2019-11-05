@@ -9,7 +9,7 @@ django-celery-beat==1.5.0  # https://github.com/celery/django-celery-beat
 flower==0.9.3  # https://github.com/mher/flower
 PyPDF2==1.26.0  # https://pypi.org/project/PyPDF2/
 arrow==0.15.2  # https://github.com/crsmithdev/arrow
-elasticsearch-dsl>=7.0.0,<8.0.0  # https://github.com/elastic/elasticsearch-dsl-py
+elasticsearch-dsl>=6.0.0,<7.0.0  # https://github.com/elastic/elasticsearch-dsl-py
 
 
 # Django
@@ -22,7 +22,7 @@ django-crispy-forms==1.7.2  # https://github.com/django-crispy-forms/django-cris
 django-compressor==2.3  # https://github.com/django-compressor/django-compressor
 django-redis==4.10.0  # https://github.com/niwinz/django-redis
 django_neomodel==0.0.4  # https://github.com/neo4j-contrib/django-neomodel
-django-elasticsearch-dsl==7.1.0  # https://github.com/sabricot/django-elasticsearch-dsl
+django-elasticsearch-dsl>=6.0.0,<7.0.0  # https://github.com/sabricot/django-elasticsearch-dsl
 
 # Django REST Framework
 djangorestframework==3.10.3  # https://github.com/encode/django-rest-framework

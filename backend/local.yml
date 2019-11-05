@@ -86,7 +86,9 @@ services:
       - "3001:3001"
 
   elasticsearch:
-    image: elasticsearch:7.4.2
+    image: elasticsearch:6.8.3
     ports:
       - "9200:9200"
       - "9300:9300"
+    environment:
+      - discovery.type=single-node

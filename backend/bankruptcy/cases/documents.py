@@ -19,9 +19,10 @@ class CaseDocument(Document):
         # The fields of the model you want to be indexed in Elasticsearch
         fields = [
             'name',
-            'color',
-            'description',
-            'type',
+            'recap_id',
+            'pacer_id',
+            'jurisdiction',
+            'chapter',
         ]
 
         # Auto update Elasticsearch when a model is saved

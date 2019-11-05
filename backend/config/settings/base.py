@@ -296,6 +296,6 @@ STATICFILES_FINDERS += ["compressor.finders.CompressorFinder"]
 # https://django-elasticsearch-dsl.readthedocs.io/en/latest/
 ELASTICSEARCH_DSL={
     'default': {
-        'hosts': 'localhost:9200'
+        'hosts': 'elasticsearch:9200'
     },
 }
