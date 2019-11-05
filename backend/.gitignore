@@ -280,4 +280,4 @@ bankruptcy/media/
 
 ### Data
 data/*
-!data/samples/*
+!data/samples

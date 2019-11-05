@@ -5,13 +5,21 @@ from utils.case import CaseObj, DocketEntryObj, DocumentObj
 from bankruptcy.cases.models import Case, DocketEntry, Document
 
 
-DATA_LOCATION = 'data/samples'
-
-
 class Command(BaseCommand):
     help = 'Loads case data from JSON files into database.'
 
+    def add_arguments(self, parser):
+        parser.add_argument(
+            '--all',
+            action='store_true',
+            help='Use all data instead of just the sample.',
+        )
+
     def handle(self, *args, **options):
+        DATA_LOCATION = 'data/samples'
+        if options['all']:
+            DATA_LOCATION = 'data/total'
+
         self.stdout.write('Loading case data into the database...')
         case_files = []
         for file in os.listdir(DATA_LOCATION):

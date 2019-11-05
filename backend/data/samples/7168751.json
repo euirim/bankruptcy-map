@@ -1,0 +1,130 @@
+{
+  "id": 7168751,
+  "docket_entries": [],
+  "parties": [
+    {
+      "id": 2013147,
+      "attorneys": [
+        {
+          "id": 1831339,
+          "roles": [
+            {
+              "id": 67844397,
+              "role": 10,
+              "role_raw": "",
+              "date_action": null
+            }
+          ],
+          "date_created": "2018-06-14T21:30:00.352508Z",
+          "date_modified": "2019-01-10T01:19:08.894012Z",
+          "name": "Julius A. Rivera, Jr.",
+          "contact_raw": "309 Mill Street\nPoughkeepsie, NY 12601\n(845) 452-1422\nFax : 866-914-4520\nEmail:\n",
+          "phone": "(845) 452-1422",
+          "fax": "(866) 914-4520",
+          "email": ""
+        }
+      ],
+      "party_types": [
+        {
+          "id": 2880586,
+          "criminal_counts": [],
+          "criminal_complaints": [],
+          "name": "Debtor",
+          "date_terminated": null,
+          "extra_info": "40 South Highland Avenue\nApt. 17\nOssining, NY 10562\nWESTCHESTER-NY\nSSN / ITIN: xxx-xx-8334",
+          "highest_offense_level_opening": "",
+          "highest_offense_level_terminated": ""
+        }
+      ],
+      "date_created": "2018-06-14T21:30:00.339385Z",
+      "date_modified": "2018-06-14T21:30:00.339417Z",
+      "name": "Rafaela Soto",
+      "extra_info": ""
+    },
+    {
+      "id": 2013148,
+      "attorneys": [],
+      "party_types": [
+        {
+          "id": 2880587,
+          "criminal_counts": [],
+          "criminal_complaints": [],
+          "name": "Trustee",
+          "date_terminated": null,
+          "extra_info": "Kittay & Gershfeld, P.C.\n100 White Plains Road\n2nd Floor\nTarrytown, NY 10591\n(914) 332-8000",
+          "highest_offense_level_opening": "",
+          "highest_offense_level_terminated": ""
+        }
+      ],
+      "date_created": "2018-06-14T21:30:00.374571Z",
+      "date_modified": "2018-06-14T21:30:00.374601Z",
+      "name": "David R. Kittay",
+      "extra_info": ""
+    },
+    {
+      "id": 2013149,
+      "attorneys": [],
+      "party_types": [
+        {
+          "id": 2880588,
+          "criminal_counts": [],
+          "criminal_complaints": [],
+          "name": "U.S. Trustee",
+          "date_terminated": null,
+          "extra_info": "Office of the United States Trustee\nU.S. Federal Office Building\n201 Varick Street, Room 1006\nNew York, NY 10014\n(212) 510-0500",
+          "highest_offense_level_opening": "",
+          "highest_offense_level_terminated": ""
+        }
+      ],
+      "date_created": "2018-06-14T21:30:00.380906Z",
+      "date_modified": "2018-06-14T21:30:00.380930Z",
+      "name": "United States Trustee",
+      "extra_info": ""
+    }
+  ],
+  "original_court_info": null,
+  "bankruptcy_information": null,
+  "claims": [],
+  "idb_data": null,
+  "absolute_url": "/docket/7168751/rafaela-soto/",
+  "source": 1,
+  "appeal_from_str": "",
+  "assigned_to_str": "Robert D. Drain",
+  "referred_to_str": "",
+  "panel_str": "",
+  "date_created": "2018-06-14T21:30:00.261094Z",
+  "date_modified": "2018-11-10T06:25:55.527596Z",
+  "date_last_index": "2018-11-10T06:25:55.527059Z",
+  "date_cert_granted": null,
+  "date_cert_denied": null,
+  "date_argued": null,
+  "date_reargued": null,
+  "date_reargument_denied": null,
+  "date_filed": "2010-10-18",
+  "date_terminated": "2011-08-12",
+  "date_last_filing": null,
+  "case_name_short": "Rafaela Soto",
+  "case_name": "Rafaela Soto",
+  "case_name_full": "",
+  "slug": "rafaela-soto",
+  "docket_number": "10-24169",
+  "docket_number_core": "",
+  "pacer_case_id": "204152",
+  "cause": "",
+  "nature_of_suit": "",
+  "jury_demand": "",
+  "jurisdiction_type": "",
+  "appellate_fee_status": "",
+  "appellate_case_type_information": "",
+  "mdl_status": "",
+  "filepath_local": null,
+  "filepath_ia": "",
+  "filepath_ia_json": "https://archive.org/download/gov.uscourts.nysb.204152/gov.uscourts.nysb.204152.docket.json",
+  "date_blocked": "2018-06-14",
+  "blocked": true,
+  "court": "nysb",
+  "appeal_from": null,
+  "assigned_to": null,
+  "referred_to": null,
+  "panel": []
+}
