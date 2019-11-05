@@ -10,8 +10,7 @@ class Case(models.Model):
     date_terminated = models.DateField(db_index=True, blank=True, null=True)
     date_blocked = models.DateField(db_index=True, blank=True, null=True)
     jurisdiction = models.CharField(max_length=50)
-    chapter = models.CharField(
-        max_length=10,
+    chapter = models.SmallIntegerField(
         db_index=True,
         blank=True,
         null=True
