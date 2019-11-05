@@ -86,7 +86,7 @@ services:
       - "3001:3001"
 
   elasticsearch:
-    image: elasticsearch:5.6-alpine
+    image: elasticsearch:7.4.2
     ports:
       - "9200:9200"
       - "9300:9300"

@@ -70,6 +70,7 @@ THIRD_PARTY_APPS = [
     "allauth.socialaccount",
     "rest_framework",
     "django_celery_beat",
+    "django_elasticsearch_dsl",
 ]
 
 LOCAL_APPS = [
@@ -289,3 +290,12 @@ INSTALLED_APPS += ["compressor"]
 STATICFILES_FINDERS += ["compressor.finders.CompressorFinder"]
 # Your stuff...
 # ------------------------------------------------------------------------------
+
+# django-elasticsearch-dsl
+# ------------------------------------------------------------------------------
+# https://django-elasticsearch-dsl.readthedocs.io/en/latest/
+ELASTICSEARCH_DSL={
+    'default': {
+        'hosts': 'localhost:9200'
+    },
+}
