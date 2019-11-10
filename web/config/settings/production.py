@@ -19,8 +19,7 @@ ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["localhost"])
 
 # DATABASES
 # ------------------------------------------------------------------------------
-DATABASES = {}
-DATABASES["default"] = {}  # noqa F405
+DATABASES = {"default": {}}
 DATABASES["default"]["ENGINE"] = 'django.db.backends.postgresql'  # noqa F405
 DATABASES["default"]["HOST"] = env("POSTGRES_HOST")  # noqa F405
 DATABASES["default"]["PORT"] = env("POSTGRES_PORT")  # noqa F405
