@@ -11,6 +11,8 @@ services:
     image: bankruptcy_production_django
     depends_on:
       - redis
+    volumes:
+      - ./data:/app/data
     env_file:
       - ./.envs/.production/.django
       - ./.envs/.production/.postgres
