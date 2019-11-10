@@ -4,7 +4,26 @@ USER root
 
 # Install packages for textract
 RUN apt-get update
-RUN apt-get install -y python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig libpulse-dev zlib1g-dev
+RUN apt-get install -y \
+    python-dev \
+    libxml2-dev \
+    libxslt1-dev \
+    antiword \
+    unrtf \
+    poppler-utils \
+    pstotext \
+    tesseract-ocr \
+    flac \
+    ffmpeg \
+    lame \
+    libmad0 \
+    libsox-fmt-mp3 \
+    sox \
+    libjpeg-dev \
+    swig \
+    libpulse-dev \
+    zlib1g-dev \
+    tesseract-ocr
 
 RUN mkdir /opt/bankruptcy-map
 COPY requirements.txt /opt

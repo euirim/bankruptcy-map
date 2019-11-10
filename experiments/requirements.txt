@@ -12,4 +12,7 @@ matplotlib==3.1.1
 arrow==0.15.2
 textract==1.6.3
 PyPDF2==1.26.0
+Pillow==6.2.1
+pytesseract==0.3.0
+pdf2image==1.10.0
 https://blackstone-model.s3-eu-west-1.amazonaws.com/en_blackstone_proto-0.0.1.tar.gz
