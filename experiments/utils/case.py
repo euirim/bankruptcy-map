@@ -186,7 +186,7 @@ class Document:
             out_file.write(response)
 
         # convert PDF to images
-        page_images = convert_from_path(pdf_filename, 450)
+        page_images = convert_from_path(pdf_filename, dpi=450, thread_count=4)
 
         page_filenames = []
         # crop images
@@ -206,22 +206,25 @@ class Document:
         
         # convert images to text and compile
         texts = []
+        tesseract_config = r'-l eng --oem 1'
         for fn in page_filenames:
-            text = str(pytesseract.image_to_string(Image.open(fn)))
+            text = str(
+                pytesseract.image_to_string(
+                    Image.open(fn), config=tesseract_config
+                )
+            )
             text = text.replace('-\n', '')
             text = text.replace('\n', ' ')
             text = text.strip()
-            print(text)
             texts.append(text)
             
         result = ' '.join(texts)
+        self.text = result
         
         # clean up
         for fn in page_filenames:
             os.remove(fn)
         os.remove(pdf_filename)
-        
-        return result
 
 
 class Party:

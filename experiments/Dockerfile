@@ -23,7 +23,7 @@ RUN apt-get install -y \
     swig \
     libpulse-dev \
     zlib1g-dev \
-    tesseract-ocr
+    libtesseract-dev
 
 RUN mkdir /opt/bankruptcy-map
 COPY requirements.txt /opt
