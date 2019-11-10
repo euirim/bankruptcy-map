@@ -34,7 +34,7 @@ RUN pip install -r requirements.txt
 
 # Install Spacy Models
 RUN python -m spacy download en_core_web_sm
-RUN pip install https://blackstone-model.s3-eu-west-1.amazonaws.com/en_blackstone_proto-0.0.1.tar.gz
+RUN python -m spacy download en_core_web_lg
 
 WORKDIR /opt/bankruptcy-map
 
