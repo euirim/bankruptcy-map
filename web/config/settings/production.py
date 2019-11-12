@@ -15,15 +15,15 @@ from .base import env
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = env("DJANGO_SECRET_KEY")
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["52.8.169.128"])
+ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["localhost"])
 
 # DATABASES
 # ------------------------------------------------------------------------------
-DATABASES["default"] = {}  # noqa F405
+DATABASES = {"default": {}}
 DATABASES["default"]["ENGINE"] = 'django.db.backends.postgresql'  # noqa F405
 DATABASES["default"]["HOST"] = env("POSTGRES_HOST")  # noqa F405
 DATABASES["default"]["PORT"] = env("POSTGRES_PORT")  # noqa F405
-DATABASES["default"]["DB"] = env("POSTGRES_DB")  # noqa F405
+DATABASES["default"]["NAME"] = env("POSTGRES_DB")  # noqa F405
 DATABASES["default"]["USER"] = env("POSTGRES_USER")  # noqa F405
 DATABASES["default"]["PASSWORD"] = env("POSTGRES_PASSWORD")  # noqa F405
 DATABASES["default"]["ATOMIC_REQUESTS"] = True  # noqa F405
