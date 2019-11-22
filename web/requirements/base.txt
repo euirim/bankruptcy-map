@@ -23,6 +23,7 @@ django-compressor==2.3  # https://github.com/django-compressor/django-compressor
 django-redis==4.10.0  # https://github.com/niwinz/django-redis
 django_neomodel==0.0.4  # https://github.com/neo4j-contrib/django-neomodel
 django-elasticsearch-dsl>=6.0.0,<7.0.0  # https://github.com/sabricot/django-elasticsearch-dsl
+django-cors-headers==3.2.0  # https://github.com/adamchainz/django-cors-headers
 
 # Django REST Framework
 djangorestframework==3.10.3  # https://github.com/encode/django-rest-framework
