@@ -109,3 +109,5 @@ data/*
 !data/samples
 notebooks/tmp
 .local
+utils/tmp/*
+nohup.out
