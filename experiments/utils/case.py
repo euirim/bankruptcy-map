@@ -41,7 +41,7 @@ class Case:
 
     def get_date_terminated(self):
         if self.__data["date_terminated"]:
-            return arrow.get(self.__data["date_created"]).date()
+            return arrow.get(self.__data["date_terminated"]).date()
         else:
             return None
 
