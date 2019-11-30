@@ -186,7 +186,7 @@ class Document:
             out_file.write(response)
 
         # convert PDF to images
-        page_images = convert_from_path(pdf_filename, dpi=300, thread_count=1, fmt='jpg')
+        page_images = convert_from_path(pdf_filename, dpi=300, thread_count=4, fmt='jpg')
 
         page_filenames = []
         # crop images
@@ -210,7 +210,7 @@ class Document:
         for fn in page_filenames:
             text = str(
                 pytesseract.image_to_string(
-                    Image.open(fn), config=tesseract_config
+                    Image.open(fn), config=tesseract_config, timeout=180
                 )
             )
             text = text.replace('-\n', '')
