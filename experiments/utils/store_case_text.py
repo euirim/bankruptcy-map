@@ -1,25 +1,34 @@
 import logging
 from multiprocessing import Pool, current_process
+import multiprocessing_logging
 import os
 
 from case import Case
         
 
 logging.basicConfig(
-    level=logging.WARNING,
+    level=logging.DEBUG,
     format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
     datefmt='%m-%d %H:%M',
-    filename='logs/errors.log',
-    filemode='w'
+    filename='../logs/total.log',
+    filemode='a'
 )
 # define a Handler which writes INFO messages or higher to the sys.stderr
 console = logging.StreamHandler()
-console.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
-console.setFormatter(formatter)
-logging.getLogger('').addHandler(console)
+console.setLevel(logging.INFO)
+console_formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
+console.setFormatter(console_formatter)
+
+total_formatter = logging.Formatter('%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
+errorsLog = logging.FileHandler(filename='../logs/errors.log', mode='a')
+errorsLog.setLevel(logging.WARNING)
+errorsLog.setFormatter(total_formatter)
 
 logger = logging.getLogger('store_case_text')
+logger.addHandler(console)
+logger.addHandler(errorsLog)
+
+multiprocessing_logging.install_mp_handler()
 
 
 class DocDownloadFailed(Exception):
@@ -45,8 +54,8 @@ def store_doc_text(doc, case, entry, loc):
     
     try:
         doc.download()
-    except:
-        raise DocDownloadFailed('Document download failed.')
+    except Exception as err:
+        raise DocDownloadFailed(f'Document download failed. Error: {err}')
         return
 
     if doc.text is None:
@@ -64,29 +73,29 @@ def store_doc_text(doc, case, entry, loc):
 
 def store_case_text(case, dir, case_file, case_idx):
     for entry_idx, entry in enumerate(case.get_entries()):
-        logger.debug(gen_log_message('Started storing entry.'))
+        logger.debug(gen_log_message('Storing entry.', case_file, case_idx))
 
         total_docs = len(entry.get_documents())
         for doc_idx, doc in enumerate(entry.get_documents()):
-            logger.debug(gen_log_message(f'Started storing document {doc_idx}.'))
+            logger.debug(gen_log_message(f'Storing document {doc_idx}.', case_file, case_idx))
 
             try:
-                store_doc_text(doc, case, entry, loc, case_file, case_idx)
+                store_doc_text(doc, case, entry, dir)
             except Exception as err:
-                logger.error(gen_log_message(f'Failed to store text of doc {doc_idx}. Explanation: {err}'))
+                logger.error(gen_log_message(f'Failed to store text of doc {doc_idx}. Explanation: {err}', case_file, case_idx))
                 continue
 
-            logger.info(gen_log_message(f'Finished storing document {doc_idx}.'))
+            logger.debug(gen_log_message(f'Finished storing document {doc_idx}.', case_file, case_idx))
 
-        logger.info(gen_log_message('Finished storing entry.'))
+        logger.debug(gen_log_message('Finished storing entry.', case_file, case_idx))
 
 
 def gen_log_message(message, case_file, case_index):
-    return f'(p: {current_process()} | c: {case_file} | i: {case_index}) {message}'
+    return f'(p: {current_process().name} | c: {case_file} | i: {case_index}) {message}'
 
 
 if __name__=='__main__':
-    cases_dir = 'nysb_all_chap_11'
+    cases_dir = 'samples'
     cases_path = f'../data/{cases_dir}'
     dir = f'../data/results_{cases_dir}'
 
@@ -100,8 +109,7 @@ if __name__=='__main__':
     total_cases = len(os.listdir(cases_path))
     logger.info(f'Total number of cases: {total_cases}')
 
-    def step(idx, pair):
-        i, file = pair
+    def step(idx, file):
         if file.endswith(".json"):
             try:
                 logger.info(gen_log_message('Begin processing case.', file, idx))
@@ -111,7 +119,7 @@ if __name__=='__main__':
                 except Exception as err:
                     raise CaseAPIFailed(f'{err}')
 
-                store_case_text(case, dir, case_file, idx)
+                store_case_text(case, dir, file, idx)
                 
                 logger.info(gen_log_message('Successfully processed case.', file, idx))
             except Exception as err:
