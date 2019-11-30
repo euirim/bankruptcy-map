@@ -95,7 +95,7 @@ def gen_log_message(message, case_file, case_index):
 
 
 if __name__=='__main__':
-    cases_dir = 'samples'
+    cases_dir = 'nysb_all_chap_11'
     cases_path = f'../data/{cases_dir}'
     dir = f'../data/results_{cases_dir}'
 
