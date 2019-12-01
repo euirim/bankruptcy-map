@@ -208,6 +208,8 @@ class Document:
         texts = []
         tesseract_config = r'-l eng --oem 1'
         for fn in page_filenames:
+            # prevent weird occasional tesseract unfound bug
+            pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
             text = str(
                 pytesseract.image_to_string(
                     Image.open(fn), config=tesseract_config, timeout=180

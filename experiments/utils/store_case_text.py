@@ -131,6 +131,7 @@ if __name__=='__main__':
                         idx
                     )
                 )
+        return
 
     num_cores = os.cpu_count()
     if num_cores is None:
