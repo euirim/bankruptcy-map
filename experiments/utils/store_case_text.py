@@ -109,7 +109,8 @@ if __name__=='__main__':
     total_cases = len(os.listdir(cases_path))
     logger.info(f'Total number of cases: {total_cases}')
 
-    def step(idx, file):
+    def step(pair):
+        idx, file = pair
         if file.endswith(".json"):
             try:
                 logger.info(gen_log_message('Begin processing case.', file, idx))
@@ -136,4 +137,4 @@ if __name__=='__main__':
         num_cores = 16        
 
     with Pool(num_cores) as p:
-        p.starmap(step, enumerate(os.listdir(cases_path)))
+        p.map(step, list(enumerate(os.listdir(cases_path))), chunksize=10)
