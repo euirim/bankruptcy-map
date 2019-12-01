@@ -137,4 +137,4 @@ if __name__=='__main__':
         num_cores = 16        
 
     with Pool(num_cores) as p:
-        p.map(step, list(enumerate(os.listdir(cases_path))), chunksize=10)
+        p.map(step, list(enumerate(os.listdir(cases_path))), chunksize=5)
