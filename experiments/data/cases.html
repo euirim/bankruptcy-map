@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- load scripts -->
+<script src="https://d3js.org/d3.v5.js"></script>
+
+<!-- set place for vizualization on page -->
+<div id="viz"></div>
+
+<!-- write text for the bin changer
+<p>
+  <label>Number of bins</label>
+  <input type="number" min="1" max="2500" step="25" value="26" id="bin">
+</p> 
+
+begin script -->
+<script>
+
+// set the perimeter for the viz
+var margin = {top: 80, right: 80, bottom: 80, left: 80},
+    width = 800 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
+
+// create the svg 
+var svg = d3.select("#viz")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+// make space for the tooltip bar
+var div = d3.select("viz").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);
+
+// load the data
+d3.json("duration_data_5000.json").then(function(data) {
+
+  //get the average case length per year
+  var durationbydate = d3.nest()
+    .key(function(d) { return d.start_date; })
+    .rollup(function(v) { return d3.mean(v, function(d) { return d.duration; }); })
+    .entries(data);
+  console.log(JSON.stringify(durationbydate));
+
+  /* reformat the start_year to a date
+  var parseTime = d3.timeParse("%Y")
+    date = parseTime(data.start_date)
+    year = d3.timeFormat("%Y")(date); */
+
+  // define x axis data range
+  var x = d3.scaleLinear()
+    .domain([1989, d3.max(data, function(d) { return +d.start_date })]);
+    x.range([0, width]);
+
+  // add x axis to svg
+  svg.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x));
+
+  // add data to x axis
+  var histogram = d3.histogram()
+      .value(durationbydate, function(d) { return d.key; }) 
+      .domain(x.domain()) 
+      .thresholds(x.ticks(40)); 
+
+  // make the bins for the data
+  var bins = histogram(data);
+
+  // define y axis data range
+  var y = d3.scaleLinear()
+      .range([height, 0])
+      y.domain([0, d3.max(durationbydate, function(d) { return d.value; })]);  
+
+  // add y axis to svg 
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+  // add tooltip to svg, define what it looks like, then what it displays when graph is hovered over
+  var tooltip = d3.select("#viz")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "black")
+    .style("color", "white")
+    .style("border-radius", "5px")
+    .style("padding", "10px");
+  var showTooltip = function(d) {
+    tooltip
+      .transition()
+      .duration(100)
+      .style("opacity", 1)
+    tooltip
+      .html("Number of cases:", x(data.value))
+      .style("left", (d3.mouse(this)[0]+20) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+  };
+  var moveTooltip = function(d) {
+    tooltip
+    .style("left", (d3.mouse(this)[0]+20) + "px")
+    .style("top", (d3.mouse(this)[1]) + "px")
+  };
+  var hideTooltip = function(d) {
+    tooltip
+      .transition()
+      .duration(100)
+      .style("opacity", 0)
+  };
+
+  // put data in displayable bins, add the action of hovering on a bin to show the tooltip
+  svg.selectAll("rect")
+      .data(bins)
+      .enter()
+      .append("rect")
+        .attr("x", 1)
+        .attr("transform", function(d) { return "translate(" + x(d.x0) + "," + y(d.value) + ")"; })
+        .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
+        .attr("height", function(d) { return height - y(d.value); })
+        .style("fill", "76e5ff")
+        svg.on("mouseover", showTooltip)
+        svg.on("mousemove", moveTooltip)
+        svg.on("mouseleave", hideTooltip);
+
+  // make a title for the histogram, x and y axes
+  svg.append("text")
+        .attr("x", (width / 2))             
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "24px") 
+        .text("Case duration by start year");
+  svg.append("text")
+        .attr("text-anchor", "middle") 
+        .style("font-size", "16px") 
+        .attr("transform", "translate("+ (width / 2) + "," + (height + 45) + ")") 
+        .text("Year");
+  svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x", 0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .style("font-size", "16px") 
+        .text("Case Length"); 
+});
+
+</script>
+
